@@ -16,7 +16,7 @@ VAR1 DB 7
 var2 DW 1234h
 ```
 
-As I mentioned before, it is not case sensitive. VAR1 and va1 are the same. "DB" can be read as define byte or data byte. It declares a variable with one byte size. "DW" declares a word size variable.
+As I mentioned before, it is not case sensitive. VAR1 and var1 are the same. "DB" can be read as define byte or data byte. It declares a variable with one byte size. "DW" declares a word size variable.
 If you run the program with the emulator, you can see that the AL and BX values change to 7 and 1234h, respectively.
 Simple. But there is something more important here. I mentioned that the variable is the address of the memory. What are the memory addresses of var1 and var2? Where do we name the address of the memory?
 
